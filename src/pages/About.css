@@ -1,0 +1,42 @@
+.new_section_container {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.about_container {
+  padding: 1.5rem;
+}
+.about_container h3 {
+  font-size: 2rem;
+}
+.about_container p {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+.new_section_container .icons {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 2rem auto;
+  box-shadow: 0 6px 20px rgb(56 125 255 / 30%);
+  display: grid;
+  place-items: center;
+}
+.new_section_container .icons i {
+  font-size: 2rem;
+  color: var(--black-color);
+  transition: 0.5s;
+}
+.new_section_container .icons:hover {
+  cursor: pointer;
+  background: var(--primary-gradient-color);
+}
+.new_section_container .icons:hover i {
+  color: var(--white-color);
+}
+.new_section_container ul li {
+  display: inline-block;
+  margin: 1.5rem 2rem;
+}

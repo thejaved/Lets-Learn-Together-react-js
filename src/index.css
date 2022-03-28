@@ -1,13 +1,57 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&display=swap");
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oxygen", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 5px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px var(--white-color);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary-gradient-color);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+hr {
+  width: 90%;
+  height: 2px;
+  border: none;
+  border-radius: 1rem;
+  margin: 1rem 0;
+  background: var(--primary-gradient-color);
+}
+:root {
+  --primary-color: rgb(74, 0, 224);
+  --white-color: hsl(0, 0%, 100%);
+  --black-color: hsl(0, 0%, 0%);
+  --grey-color: hsl(0, 0%, 14%);
+  --active-color: rgb(172, 255, 176);
+  --not-active-color: #f3f3ff;
+  --primary-gradient-color: linear-gradient(
+    to right,
+    rgb(142, 45, 226),
+    rgb(74, 0, 224)
+  );
 }

@@ -1,0 +1,33 @@
+.Footer {
+  width: 100%;
+  min-height: 100px;
+  background: var(--primary-gradient-color);
+  color: var(--white-color);
+}
+.footer_bottom_container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer_social_media ul li {
+  display: inline-block;
+  margin: 1rem;
+}
+.footer_menu {
+  width: 90%;
+  text-align: center;
+  margin: auto;
+}
+.footer_menu ul li {
+  display: inline-block;
+  margin: 1.5rem;
+}
+.footer_menu ul li a {
+  color: var(--white-color);
+  cursor: pointer;
+}
+.copyright_footer_container {
+  text-align: center;
+  padding: 1rem;
+}

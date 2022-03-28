@@ -1,0 +1,15 @@
+.button__container button {
+  width: 8rem;
+  height: 3rem;
+  border-radius: 2rem;
+  border: none;
+  background: var(--primary-gradient-color);
+  color: var(--white-color);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.button__container button:hover {
+  background: transparent;
+  box-shadow: 0 6px 20px rgb(56 125 255 / 30%);
+  color: var(--black-color);
+}
